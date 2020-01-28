@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/menuaccess",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\MenuAccess\\Providers\\MenuAccessServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MenuAccess\\": ""
+        }
+    }
+}

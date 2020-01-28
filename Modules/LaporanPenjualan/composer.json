@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/laporanpenjualan",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\LaporanPenjualan\\Providers\\LaporanPenjualanServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\LaporanPenjualan\\": ""
+        }
+    }
+}
